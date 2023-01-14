@@ -52,7 +52,7 @@ nav ul li{
     font-size: 1.9em;
     padding: 5px;
 }
-.banner-description button{
+.banner-description button , .button{
     font-weight: 400;
     font-size: 1.2em;
     color: #FFFFFF;
@@ -60,9 +60,52 @@ nav ul li{
     border: none;
     border-radius: 5px;
     padding: 10px;
+  
 }
 .banner-photo img{
     width: 100%;
     max-width: 1250px;
 }
 /* banner section end */
+/* features section starts  */
+.features-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.features-imgs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 50%;  
+}
+
+.features-imgs img{
+ width: 100%;
+   
+}
+
+.features-description{
+    width: 50%;
+}
+.features-description h1{
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 5px;
+}
+.features-description p{
+    font-weight: 400;
+    font-size: 1.9em;
+    padding: 5px;
+}
+.features-description h1 span{
+color: #FF900E;
+}
+
+/* features section end  */
