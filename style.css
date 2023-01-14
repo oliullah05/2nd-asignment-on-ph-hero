@@ -27,7 +27,7 @@ nav h1{
     font-size: 2.0em;
 }
 nav ul li{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 /* navbar end */
@@ -109,3 +109,97 @@ color: #FF900E;
 }
 
 /* features section end  */
+/* more features section starts  */
+.more-features{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+.more-features-info{
+  display: grid;
+  grid-template-columns: 2fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: start;
+  width: 50%;
+}
+.more-features-1 h1{
+    font-size: 3em;
+    padding: 10px;
+}
+.more-features-1 p{
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.more-features-2{
+ width: 586px;
+ height: 150px;
+ background: #ffffff;
+ box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+ border-radius: 5px;
+}
+.more-features-2 h4{
+    font-size: 1.5em;
+  
+    padding: 15px 20px;
+}
+.more-features-2 p{
+    font-size: 1.3em;
+    padding: 0px 20px;
+}
+.more-features-photo img{
+    width: 100%;
+}
+.more-features-photo{
+    width: 50%;
+}
+
+/* more-features-section-ends */
+/* some facts section start */
+.some-facts{
+width: 100%;
+max-width: 1250px;
+margin: 0 auto;
+}
+.facts-description h1{
+font-size: 2.5em;
+padding: 15px;
+}
+.facts-description p{
+font-size: 1.5em;
+padding-bottom: 60px;
+padding-left: 15px;
+
+}
+.facts-overview{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.overview-box{
+    height: 241px;
+    width: 241px;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 15px;
+    border: 1px solid #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overview-box img{
+ height: 50px;
+ width: 50px;
+}
+.overview-box h2{
+font-size: 2.5em;
+padding: 10px;
+}
+.overview-box p{
+font-size: 1.5em;
+padding: 0px;
+}
+/* some facts section end */
