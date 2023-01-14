@@ -9,7 +9,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: rgba(250, 203, 203, 0.334);
+     background: #FF900E1A;
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
@@ -36,6 +36,7 @@ nav ul li{
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
+   background-color:#ff8f0e0c;
 
 }
 .banner-description{
@@ -102,17 +103,18 @@ nav ul li{
 .features-description p{
     font-weight: 400;
     font-size: 1.9em;
-    padding: 5px;
+   padding: 5px 5px 15px 5px;
 }
 .features-description h1 span{
 color: #FF900E;
 }
 
+
 /* features section end  */
 /* more features section starts  */
 .more-features{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
@@ -129,6 +131,7 @@ color: #FF900E;
 .more-features-1 h1{
     font-size: 3em;
     padding: 10px;
+    border-left: 5px solid #FF900E;
 }
 .more-features-1 p{
     font-size: 1.3em;
@@ -157,6 +160,19 @@ color: #FF900E;
 .more-features-photo{
     width: 50%;
 }
+/* .features-year-expriences{
+    width: 300px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 35px;
+    position: relative;
+    bottom: 150px;
+}
+.features-year-expriences small{
+   font-size: 1.1em;
+} */
 
 /* more-features-section-ends */
 /* some facts section start */
@@ -237,3 +253,19 @@ flex-wrap: wrap;
 }
 /* sponspoes section end */
 /* footer section start */
+footer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1250px;   
+background: #FFF4E7;
+border-radius: 15px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer p{
+    font-family: 'Work Sans';
+font-weight: 400;
+font-size: 20px;
+}
