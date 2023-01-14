@@ -203,3 +203,37 @@ font-size: 1.5em;
 padding: 0px;
 }
 /* some facts section end */
+/* sponspoes section start */
+.sponspors{
+    width: 100%;
+    max-width: 1250px;
+    margin: 50px auto;
+}
+.sponspors-tittle{
+ padding: 60px;
+    }
+.sponspors-tittle h1{
+font-size: 2.5em;
+padding: 10px;
+text-align: center;
+font-weight: 1000;
+}
+.sponspors-tittle p{
+font-size: 1.5em;
+padding-bottom: 20px;
+text-align: center;
+}
+.all-sponspors-logos div{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+justify-items: center;
+flex-wrap: wrap;
+/* border: 1px solid red; */
+}
+.amazon-img{
+    margin-top:15px ;
+}
+/* sponspoes section end */
+/* footer section start */
