@@ -118,6 +118,7 @@ color: #FF900E;
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
+    gap: 50px;
 
 }
 .more-features-info{
@@ -144,6 +145,7 @@ color: #FF900E;
  background: #ffffff;
  box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
  border-radius: 5px;
+margin: 5px 0px;
 }
 .more-features-2 h4{
     font-size: 1.5em;
@@ -159,20 +161,24 @@ color: #FF900E;
 }
 .more-features-photo{
     width: 50%;
+    position: relative;
+    
 }
-/* .features-year-expriences{
+.features-year-expriences{
     width: 300px;
     height: 150px;
     background: #FF900E;
     border-radius: 8px;
     text-align: center;
     padding-top: 35px;
-    position: relative;
-    bottom: 150px;
+    position: absolute;
+    bottom: 0px;
+  left: -45px;
+
 }
 .features-year-expriences small{
    font-size: 1.1em;
-} */
+}
 
 /* more-features-section-ends */
 /* some facts section start */
@@ -427,7 +433,7 @@ height: 100%;
 
 /* .more-features starts */
 .more-features{
-    width: 1000%;
+    width: 100%;
 flex-direction: column;
 max-width: 100%;
 height: 100%;
@@ -438,6 +444,7 @@ margin: 0;
     grid-template-columns: repeat(1,1fr);
     width: 100%;
     height: 100%;
+    gap: 11px;
 }
 .more-features-1{
     width: 100%;
@@ -455,6 +462,7 @@ margin: 0;
 .more-features-2 {
     height: 100%;
     width: 100%;
+    margin: 11px 0px;
 }
 .more-features-2 h4{
   font-size: 22px;
@@ -474,7 +482,9 @@ margin: 0;
 
 
 /* .some-facts starts */
-
+.some-facts{
+    margin: 49px 0px;
+}
 .facts-overview{
     grid-template-columns: repeat(1,1fr);
     gap: 10px;
