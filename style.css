@@ -219,6 +219,93 @@ font-size: 1.5em;
 padding: 0px;
 }
 /* some facts section end */
+
+/* subcribe-section start */
+
+.subcribe-section{
+    height: 52vh;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    width: 100%;
+    max-width: 1250px;
+    margin: 45px auto 0px auto;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 255, 0.092);
+   
+    }
+    .google-login{
+        width: 100%;
+        height: 35px;
+        background-color: rgba(128, 128, 128, 0.19);
+        border: 1px solid gainsboro;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .subcribe-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    }
+    .subcribe-intro h1{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+    }
+    .subcribe-intro p{
+        font-size: 1.5em;
+    }
+    .or{
+        text-align: center;
+        
+    color: rgb(2 27 36);
+        margin: 10px 0;
+    }
+    .subcribe-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    form{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 25vh;
+    }
+    form input{
+        display: block;
+        width: 100%;
+        height: 35px;
+     /* border: 1px solid gray; */
+    }
+    form p{
+     
+        color: rgb(103 49 191);
+    
+    }
+    .subscribe-button{
+        width: 100%;
+        height: 45px;
+        background-color: rgba(0, 0, 139, 0.306);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: 15px;
+       border-radius: 15px;
+    }
+    .subscribe-button button{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    background-color:rgba(0, 0, 255, 0);
+    }
+    /* subcribe-section end */
+
 /* sponspoes section start */
 .sponspors{
     width: 100%;
