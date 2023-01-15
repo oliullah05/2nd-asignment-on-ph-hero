@@ -194,9 +194,8 @@ margin: 5px 0px;
     text-align: center;
     padding-top: 35px;
     position: absolute;
-    bottom: 0px;
-    left: -45px;
-}
+    bottom: -1755px;
+    left: 745px;}
 
 .features-year-expriences small{
    font-size: 1.1em;
@@ -537,15 +536,16 @@ height: 100%;
 }
 
 .features-year-expriences{
-    bottom: -172px;
-    left: 71px;
+   position: static;
+   width: 100%;
+   margin-top: 30px;
 }
 
 /* .more-features end */
 /* .some-facts starts */
 
 .some-facts{
-    margin-top: 209px;
+    margin-top: 50px;
 }
 
 .facts-overview{
