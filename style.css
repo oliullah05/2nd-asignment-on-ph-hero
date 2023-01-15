@@ -480,13 +480,20 @@ margin: 0;
 .more-features-photo{
     width: 100%;
 }
+
+.features-year-expriences{
+    bottom: -172px;
+    left: 71px;
+
+}
+
 /* .more-features end */
 
 
 
 /* .some-facts starts */
 .some-facts{
-    margin: 49px 0px;
+    margin-top: 209px;
 }
 .facts-overview{
     grid-template-columns: repeat(1,1fr);
