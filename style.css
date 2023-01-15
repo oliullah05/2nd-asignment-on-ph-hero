@@ -33,6 +33,9 @@ nav h1{
 nav ul li{
     font-size: 1.5em;
 }
+nav ul li a{
+   text-decoration: none;
+}
 
 /* navbar end */
 /* banner starts */
