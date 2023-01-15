@@ -356,3 +356,42 @@ footer p{
 font-weight: 400;
 font-size: 20px;
 }
+
+
+
+
+
+
+
+/* for mobile responsive */
+@media only screen and (max-width: 576px ){
+ nav{
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+ } 
+ nav h1{
+    font-size: 18px;
+    padding-bottom: 15px;
+ }
+ nav ul li{
+    font-size: 18px;
+ }  
+ nav ul{
+    flex-direction: column;
+ }  
+
+
+
+
+
+
+
+
+
+.banner , .features-section, .more-features , .some-facts , .subcribe-section , .sponspors , footer{
+    display: none;
+}
+
+
+}
