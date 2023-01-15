@@ -155,6 +155,9 @@ margin: 5px 0px;
 .more-features-2 p{
     font-size: 1.3em;
     padding: 0px 20px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .more-features-photo img{
     width: 100%;
