@@ -183,7 +183,7 @@ margin: 5px 0px;
 
 .more-features-photo{
     width: 50%;
-    position: relative;  
+     
 }
 
 .features-year-expriences{
@@ -193,9 +193,10 @@ margin: 5px 0px;
     border-radius: 8px;
     text-align: center;
     padding-top: 35px;
-    position: absolute;
-    bottom: -1755px;
-    left: 745px;}
+    position: relative;
+   left: 750px;
+bottom: 155px;
+}
 
 .features-year-expriences small{
    font-size: 1.1em;
