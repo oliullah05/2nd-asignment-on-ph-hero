@@ -365,6 +365,7 @@ font-size: 20px;
 
 /* for mobile responsive */
 @media only screen and (max-width: 576px ){
+    /* nav responsive statrs */
  nav{
     width: 100%;
     flex-direction: column;
@@ -380,16 +381,45 @@ font-size: 20px;
  nav ul{
     flex-direction: column;
  }  
+ /* nav responsive end  */
+ /* banner responsive starts */
+ .banner {
+width: 100%;
+height: 100%;
+ }
+.banner-description h1{
+    font-size: 20px;
+} 
+.banner-description p{
+    font-size: 18px;
+    padding-bottom: 10px;
+} 
+/* banner responsive end */
+/* .features-section responsive starts */
+.features-imgs {
+    grid-template-columns: repeat(1,1fr);
+    gap: 11px;
+}
+.features-section{
+    flex-direction: column;
+}
+.features-description h1{
+    font-size: 29px;
+    
+}
+.features-description p{
+    font-size: 20px;
+
+}
+.banner-description button, .button{
+    font-size: 1em;
+}
+/* .features-section responsive end */
 
 
 
 
-
-
-
-
-
-.banner , .features-section, .more-features , .some-facts , .subcribe-section , .sponspors , footer{
+nav, .banner, .more-features , .some-facts , .subcribe-section , .sponspors , footer{
     display: none;
 }
 
